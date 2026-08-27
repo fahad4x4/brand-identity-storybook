@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;600;700&family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  /* ══════════ Colors ══════════ */
+  --color-primary: #1A8C5E;
+  --color-primary-dark: #157A4F;
+  --color-primary-light: #E8F5F0;
+  
+  --color-bg: #F5F6F8;
+  --color-surface: #FFFFFF;
+  --color-bg-disabled: #F3F4F6;
+  
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-text-tertiary: #9CA3AF;
+  
+  --color-border: #E5E7EB;
+  --color-border-light: #F3F4F6;
+  
+  --color-success: #1A8C5E;
+  --color-success-bg: #E8F5F0;
+  --color-warning: #F59E0B;
+  --color-warning-bg: #FEF3C7;
+  --color-warning-text: #92400E;
+  --color-error: #DC2626;
+  --color-error-bg: #FEE2E2;
+  --color-error-text: #991B1B;
+  --color-info: #3B82F6;
+  --color-info-bg: #DBEAFE;
+  --color-info-text: #1E40AF;
+  
+  /* ══════════ Spacing ══════════ */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  
+  /* ══════════ Radius ══════════ */
+  --radius-card: 24px;
+  --radius-button: 28px;
+  --radius-input: 12px;
+  --radius-badge: 16px;
+  --radius-thumbnail: 12px;
+  
+  /* ══════════ Typography ══════════ */
+  --text-h1: 28px;
+  --text-h2: 22px;
+  --text-h3: 18px;
+  --text-body: 14px;
+  --text-caption: 12px;
+  --text-button: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Cairo', 'Tajawal', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}
+
+html[dir='rtl'] {
+  direction: rtl;
+}
