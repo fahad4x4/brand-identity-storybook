@@ -94,7 +94,7 @@ brand-identity-storybook/
 
 ### License
 
-This repository does not include a license file yet, so no open-source license has been granted. Contact the author before reusing the code.
+Released under the [MIT License](LICENSE). Copyright © 2026 Fahad ALGhathbar (فهد الغثبر).
 
 ### Author
 
@@ -209,7 +209,7 @@ brand-identity-storybook/
 
 ### الرخصة
 
-لا يتضمن المستودع ملف رخصة حتى الآن، لذا لم تُمنح أي رخصة مفتوحة المصدر. يُرجى التواصل مع المؤلف قبل إعادة استخدام الشيفرة.
+المشروع منشور برخصة [MIT](LICENSE). حقوق النشر © 2026 فهد الغثبر (Fahad ALGhathbar).
 
 ### المؤلف
 
